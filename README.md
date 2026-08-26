@@ -112,13 +112,27 @@ Default skill **tidak** menyertakan auth, CI, atau shared package. Minta terpisa
 
 Detail langkah agent ada di [`SKILL.md`](./SKILL.md); template file di [`reference.md`](./reference.md).
 
-## Referensi
+## Referensi tech stack
 
-Penjelasan konsep Agent Skills (format `SKILL.md`, cara install di berbagai agent) dari **Programmer Zaman Now (PZN)**:
+| Layer | Docs |
+|-------|------|
+| Bun (runtime, workspaces) | https://bun.com/docs |
+| Bun workspaces | https://bun.com/guides/install/workspaces |
+| SvelteKit | https://svelte.dev/docs/kit |
+| ElysiaJS | https://elysiajs.com/ |
+| Elysia + Drizzle | https://elysiajs.com/integrations/drizzle |
+| Drizzle ORM | https://orm.drizzle.team/docs/overview |
+| Drizzle + PostgreSQL | https://orm.drizzle.team/docs/get-started/postgresql-new |
+| PostgreSQL | https://www.postgresql.org/docs/ |
+| Docker Compose | https://docs.docker.com/compose/ |
+
+## Belajar Agent Skills
+
+Konsep format `SKILL.md` dan cara install di berbagai agent: **Programmer Zaman Now (PZN)**
 
 - [YouTube: Agent Skills](https://www.youtube.com/watch?v=H9n2eYPX4wg)
 
-Dokumentasi ekosistem:
+Ekosistem:
 
 - [skills.sh](https://skills.sh/)
 - [vercel-labs/skills (CLI)](https://github.com/vercel-labs/skills)
