@@ -114,6 +114,14 @@ Detail langkah agent ada di [`SKILL.md`](./SKILL.md); template file di [`referen
 
 ## Referensi tech stack
 
+Inspirasi pilihan stack skill ini: video **Programmer Zaman Now (PZN)** yang membahas stack mereka di 2026 (TypeScript penuh, Svelte di frontend, Bun sebagai runtime, ElysiaJS + Drizzle ORM di backend).
+
+- [Tech Stack 2026 Programmer Zaman Now](https://www.youtube.com/watch?v=H9n2eYPX4wg) — channel [Programmer Zaman Now](https://www.youtube.com/@ProgrammerZamanNow)
+
+Catatan: di video frontend disebut Svelte; skill ini memakai **SvelteKit** (Svelte + routing/app framework). Postgres + Docker Compose ditambahkan untuk scaffold lokal, tidak dibahas sebagai fokus utama di video itu.
+
+Dokumentasi resmi per layer:
+
 | Layer | Docs |
 |-------|------|
 | Bun (runtime, workspaces) | https://bun.com/docs |
@@ -126,13 +134,9 @@ Detail langkah agent ada di [`SKILL.md`](./SKILL.md); template file di [`referen
 | PostgreSQL | https://www.postgresql.org/docs/ |
 | Docker Compose | https://docs.docker.com/compose/ |
 
-## Belajar Agent Skills
+## Agent Skills (format & install)
 
-Konsep format `SKILL.md` dan cara install di berbagai agent: **Programmer Zaman Now (PZN)**
-
-- [YouTube: Agent Skills](https://www.youtube.com/watch?v=H9n2eYPX4wg)
-
-Ekosistem:
+Dokumentasi ekosistem skill (`SKILL.md`, CLI install ke Cursor / Claude Code / Codex, dll.):
 
 - [skills.sh](https://skills.sh/)
 - [vercel-labs/skills (CLI)](https://github.com/vercel-labs/skills)
